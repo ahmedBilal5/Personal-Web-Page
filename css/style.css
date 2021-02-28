@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutSection{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.nav-list{
+    width: 70%;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list li{
+    list-style-type: none;
+    padding: 26px 30px;
+    scroll-behavior: smooth;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: orange;
+    white-space: nowrap;
+}
+
+
+.rightNav{
+    width: 50%;
+    
+    text-align: right;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border:2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(87, 73, 219, 0.8) url(../img/gradient2.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px 150px;
+    font-size: 125%;
+    
+   /*max-width: 50%;
+    margin: auto;*/
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 70%;
+    display: grid;
+    margin-top: 25px;
+}
+.text-big{
+   /*position: relative;
+   top: 250px;
+   left: 100px;*/
+   margin-top: 120px;
+   margin-left: -70px;
+   font-size: 38px;
+}
+.text-small{
+    /*position: absolute;
+    top: 300px;
+    left: 100px;*/
+    margin-top: 10px;
+    margin-left: -70px;
+    font-size: 20px;
+    margin-right: -249px;
+}
+.text-medium{
+    padding-top: 10px;
+    font-size: 28px;
+}
+/*.secondHalf{
+    margin-left: 5px;
+}*/
+
+.avatar img{
+    width: 60%;
+    /*position: absolute;
+    left: 930px;
+    top: 130px;*/
+    margin-left: 279px;
+    margin-top: 60px;
+    padding-top: 0px;
+}
+.btn{
+    padding: 6px 16px;
+    margin-right: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+}
+.btn:hover{
+    color: black;
+    background: white;
+    transition: background 0.3s;
+}
+
+.projectSection{
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    padding-left: 120px;
+    align-items: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 125%;
+}
+.firstHalf2{
+   padding-right: 100px;
+}
+.games{
+    padding-top: 25px;
+    padding-bottom:20px;
+
+}
+.others{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.projects{
+    padding-bottom: 12px;
+    padding-top: 0px;
+  
+}
+.gameslist li{
+    list-style-type: none;
+    display: grid;
+   
+}
+.gameslist li a{
+    text-decoration: none;
+    color: white;
+}
+.gameslist li a:hover{
+    color:orange;
+    
+    transition: color 0.1s;
+}
+.otherslist li{
+    list-style-type: none;
+}
+
+.otherslist li a{
+    text-decoration: none;
+    color: white;
+}
+.otherslist li a:hover{
+    color: orange;
+    transition: color 0.1s;
+}
+.accountsSection{
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    padding-left: 120px;
+    align-items: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 125%;
+}
+
+.gbtn{
+    padding: 10px 50px;
+    margin-right: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    font-size: large;
+}
+.gbtn:hover{
+    color: black;
+    background: white;
+    transition: background 0.3s;
+}
+
+
